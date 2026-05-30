@@ -16,7 +16,7 @@ http://dera-static-website.s3-website-us-east-1.amazonaws.com
 2. Open the `index.html` file in your browser
 
 ## Screenshots
-![Screenshot](Screenshot2026-05-30-134712.png)
+![Screenshot](Screenshot1.png)
 
 ## Technologies
 - HTML5
