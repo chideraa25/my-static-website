@@ -19,7 +19,7 @@ http://dera-static-website.s3-website-us-east-1.amazonaws.com
 ![Screenshot](Screenshot1.png)
 
 ## Technologies
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 Made by Chidera
