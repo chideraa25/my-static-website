@@ -1,0 +1,104 @@
+body{
+    background-color: #000000;
+    background-image: url(https://curlytales.com/wp-content/uploads/2023/10/Off-Duty-Pilot-Trying-To-Shut-Engines-To-Plane-With-300-Flyers-Diverting-5-Airline-Incidents.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 15px;
+}
+
+
+#main-header{
+      color:#15160d;
+      font-size: 50px;
+      text-align: center;
+}
+
+.main-navigation{
+     height: 35px;
+    margin: auto;
+}
+.main-navigation a{
+   text-decoration: none;
+   padding: 0 47px;
+   line-height: 35px;
+   border-left: 1px inset #cccccc;
+   border-right: 1px inset #cccccc;
+   float: left;
+}
+
+.main-navigation a:hover{
+    color: #a83636;
+    font-size: larger;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.section-title h2{
+    text-align: center;
+}
+
+.container p{
+    font-family: Verdana;
+    font-size: large;
+}
+
+.card1{
+    font-size: 20px;
+}
+
+.container1{
+    height: auto;
+    weight: 300px;
+}
+
+.container1 img{
+    height: 200px;
+}
+
+.section-hub{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card img{
+    height: 180px;
+    margin: 1px;
+}
+
+.grid-3 h3{
+    text-align: center;
+}
+
+.price-amt{
+    color: #a83636;
+}
+
+.section-sub{
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-hub img{
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+}
+
+.gallery a{
+    text-decoration: none;
+}
+.gallery img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    margin: 15px;
+    transition: 0.3s ease-in;
+    
+}
+.gallery img:hover{
+    transform: scale(1.2);
+    filter: grayscale(100%);
+    cursor: pointer;
+}

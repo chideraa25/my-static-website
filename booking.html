@@ -1,0 +1,102 @@
+<!-- booking.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KRIZ Airline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="header">
+        <div id="main-header">Kriz Airline</div>
+        <div class="logo"></div>
+        <div id="navigation-container">
+        <nav class="main-navigation">
+             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="review.html">Register</a>
+            <a href="contact.html">Contact</a>
+            <a href="booking.html">Booking</a>
+            <a href="service.html">Service</a>
+            <a href="product.html">Product</a>
+            <a href="package.html">Package</a>
+        </nav>
+        </div>
+     </header>
+
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Book a Flight</h2>
+          <div class="section-sub">Quick reservation form</div>
+        </div>
+
+        <div>
+          <div class="form">
+            <form action="#" method="post" aria-label="Booking form">
+              <label for="name">Full name</label>
+              <input id="name" type="text" placeholder="Your full name" required>
+
+              <p><label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" required></p>
+
+              <label for="from">From</label>
+              <input id="from" type="text" placeholder="City or airport code" required>
+
+              <label for="to">To</label>
+              <input id="to" type="text" placeholder="City or airport code" required>
+
+             <br><br> <div>
+                <input type="date" required>
+                <select>
+                  <option>Economy</option>
+                  <option>Premium</option>
+                  <option>Business</option>
+                </select>
+              </div>
+
+              <textarea placeholder="Any special requests" rows="4"></textarea>
+              <button type="submit">Request Booking</button>
+            </form>
+          </div>
+
+          <div>
+            <div class="card">
+              <h3>Booking Info</h3>
+              <p>After submission, a KRIZ representative will contact you to confirm details and payment. This form is a reservation request (non-final until confirmed).</p>
+
+              <h4>Group bookings</h4>
+              <p>Email groups@krizairlines.com for group rates and arrangements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+   <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>KRIZ Airlines</h3>
+        <p>We’ll help plan your journey.</p>
+      </div>
+      <div>
+        <p>
+                    <strong>Email:</strong><br>
+                    <a href="#">support@krizairlines.com</a>
+                </p>
+
+                <p>
+                    <strong>Phone:</strong><br>+1 (555) 123-4567<br>
+                </p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
